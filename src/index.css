@@ -1,9 +1,13 @@
 :root {
   --borderRadius: 0.4rem;
-  --padding: 1rem;
+  --padding: 0.5rem;
   --margin: 10px;
+  --buttonMargin: 0.2rem;
+  --calcBackground: #e5e5e5;
 
-  --calcBackground: lightblue;
+  --buttonColor: #f2f4f3;
+  --buttonColorAlt: #fbfbfb;
+  --buttonColorEquals: royalblue;
 }
 
 * {

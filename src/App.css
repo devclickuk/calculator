@@ -15,6 +15,8 @@
   max-height: 600px;
   width: 450px;
   background-color: var(--calcBackground);
+  padding: var(--padding);
+  border-radius: var(--borderRadius);
 }
 
 .header {
@@ -24,7 +26,6 @@
   justify-content: center;
   height: 150px;
   width: 100%;
-  background-color: green;
   padding: var(--padding);
   gap: 10px;
 }
@@ -34,25 +35,31 @@
   flex-wrap: wrap;
   width: 100%;
   height: 450px;
-  background-color: yellow;
 }
 
 .calcButton {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: calc((100% - 6rem) / 6);
-  width: calc((100% - 4rem) / 4);
-  background-color: red;
-  margin: 0.5rem;
+  height: calc((100% - (var(--buttonMargin) * 12)) / 6);
+  width: calc((100% - (var(--buttonMargin) * 8)) / 4);
+  margin: var(--buttonMargin);
   cursor: pointer;
   border-radius: var(--borderRadius);
+  background-color: var(--buttonColor);
+}
+
+.altButton {
+  background-color: var(--buttonColorAlt);
+}
+
+.equalsButton {
+  background-color: var(--buttonColorEquals);
 }
 
 .display {
   height: 45px;
   width: 100%;
-  background-color: blue;
   text-align: right;
   display: flex;
   flex-direction: column;
@@ -64,7 +71,6 @@
 .history {
   height: 95px;
   width: 100%;
-  background-color: purple;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
