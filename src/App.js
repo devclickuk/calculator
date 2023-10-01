@@ -60,7 +60,7 @@ function App() {
   return (
     <div className="container">
       <div className='header'>
-        <span className='history'>0</span>
+        {/* <span className='history'>0</span> */}
         <span className='display'>{display}</span>
       </div>
       <div className='numbersContainer'>
