@@ -1,6 +1,6 @@
-# React Todo App with Redux Toolkit
+# React Calculator App
 
-### This is a demo project made by Dave Amison for the purpose of demonstrating the use of Redux Toolkit to manage state in a React app.
+### This is a demo project made by Dave Amison for the purpose of demonstrating the use of Maths and Functions in a react App.
 
 This is a simple calculator app created with React. It allows you to perform basic mathematical operations such as addition, subtraction, multiplication, and division.
 
